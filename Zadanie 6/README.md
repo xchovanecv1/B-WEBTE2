@@ -1,4 +1,20 @@
 # Zadanie č.6 - web služby
+## Pre-requirements
+For this to work, we need .htaccess allowed on our host machine, so:
+```
+vim /etc/apache2/sites-available/000-default.conf
+```
+```
+<Directory /home/user_name/public_html>
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride All
+                Order allow,deny
+                allow from all
+                # Uncomment this directive is you want to see apache2's
+                # default start page (in /apache2-default) when you go to /
+                #RedirectMatch ^/$ /apache2-default/
+</Directory>
+```
 ## Úlohy:
 - Vytvorte webovú službu (klientsku a aj serverovú stranu), ktorá bude poskytovať informácie o meninách osôb na základe priloženého xml dokumentu. Jednotlivé metódy API nech umožňujú:
   - na základe zadaného dátumu získať informáciu, kto má v daný deň meniny na Slovensku, resp. v niektorom inom uvedenom štáte

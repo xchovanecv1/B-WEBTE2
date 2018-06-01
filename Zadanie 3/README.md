@@ -1,4 +1,10 @@
 # Zadanie č.3 - Autentifikácia
+##Prerequirements
+```
+apt-get install php-ldap
+apt-get install php7.0-curl
+```
+
 ## Úlohy:
 - Vytvorte web aplikáciu, do ktorej sa užívateľ bude môcť prihlásiť podľa svojeho výberu jednou z troch možností:
   - pomocou vlastnej registrácie (kvôli tomuto bodu je potrebné sprístupniť užívateľovi registračný formulár, pri ktorom si zadá meno, priezvisko, email, login a heslo, pričom tieto údaje sa budú ukladať do databázy),

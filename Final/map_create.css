@@ -1,0 +1,94 @@
+#map{
+    position: absolute !important;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+.map-pano {
+    width: 70%;
+    height: 70%;
+    margin-bottom: 70px !important;
+}
+
+.previews {
+    min-height: 500px !important;
+    margin: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.options {
+    padding: 20px;
+}
+
+.review {
+    padding: 20px;
+}
+
+.btn {
+    min-width: 100px !important;
+}
+
+.full-width {
+    width: 100%;
+    height: 30px;
+}
+
+#main-content{
+    width: auto;
+    display: inline;
+}
+
+.left-footer{
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+    text-align: left !important;
+    padding-left: 2em;
+}
+.right-footer {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+    text-align: right !important;
+    padding-right: 2em;
+}
+
+.logo{
+    background-size: cover;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+    border-radius: 0px !important;
+}
+
+.jumbotron{
+    margin-bottom: 20px !important;
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+}
+
+.jumbotron h1{
+    font-size: 50px !important;
+}
+
+.gm-iv-address {
+    height: 60px !important;
+}
+
+.api{
+    position: relative;
+    height: 46px;
+    float: right;
+    margin-top: -40px;
+    margin-right: -45px;
+}
+
+#time, #distance{
+    text-align: center;
+}

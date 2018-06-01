@@ -1,5 +1,5 @@
 # Zadanie č.3 - Autentifikácia
-##Prerequirements
+## Prerequirements
 ```
 apt-get install php-ldap
 apt-get install php7.0-curl

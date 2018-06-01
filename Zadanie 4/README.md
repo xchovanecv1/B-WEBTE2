@@ -1,4 +1,6 @@
 # Zadanie č.4 - SSE vs. WebSockets
+## WARNING
+*** This script contains posibility of XSS attack on chat component. If you are serious about using it, fix it please. ***
 ## Pre-requirements
 ```
 apt-get install php-ldap
